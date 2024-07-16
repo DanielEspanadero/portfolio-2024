@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('/public/fonts/Roboto/Roboto-Regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'roboto-regular';
+    user-select: none;
 }

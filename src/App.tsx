@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import useSound from "use-sound";
 import clickSound from "/sounds/public_sounds_click.mp3";
 import './App.css'
+import { MainRoutes } from "./routes/MainRoutes";
 
 function App() {
   const [play] = useSound(clickSound, { volume: 0.05 });
@@ -39,7 +40,7 @@ function App() {
 
   return (
     <div className="App" onMouseDown={handleClick} onMouseUp={handleClick}>
-
+      <MainRoutes />
     </div>
   );
 }

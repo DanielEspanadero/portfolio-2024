@@ -14,7 +14,9 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.24.1",
-    "use-sound": "^4.0.3"
+    "styled-components": "^6.1.11",
+    "use-sound": "^4.0.3",
+    "vanta": "^0.5.24"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
