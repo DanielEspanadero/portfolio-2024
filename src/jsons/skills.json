@@ -1,0 +1,74 @@
+[
+  {
+    "lang": "devicon-java-plain",
+    "name": "Java"
+  },
+  {
+    "lang": "devicon-spring-plain",
+    "name": "Spring Boot"
+  },
+  {
+    "lang": "devicon-c-plain",
+    "name": "C"
+  },
+  {
+    "lang": "devicon-cplusplus-plain",
+    "name": "C++"
+  },
+  {
+    "lang": "devicon-linux-plain",
+    "name": "Linux"
+  },
+  {
+    "lang": "devicon-bash-plain",
+    "name": "Bash"
+  },
+  {
+    "lang": "devicon-docker-plain",
+    "name": "Docker"
+  },
+  {
+    "lang": "devicon-javascript-plain",
+    "name": "JavaScript"
+  },
+  {
+    "lang": "devicon-typescript-plain",
+    "name": "TypeScript"
+  },
+  {
+    "lang": "devicon-nodejs-plain-wordmark",
+    "name": "NodeJS"
+  },
+  {
+    "lang": "devicon-express-original",
+    "name": "Express"
+  },
+  {
+    "lang": "devicon-angularjs-plain",
+    "name": "Angular"
+  },
+  {
+    "lang": "devicon-react-original",
+    "name": "React"
+  },
+  {
+    "lang": "devicon-mysql-plain",
+    "name": "MySQL"
+  },
+  {
+    "lang": "devicon-mongodb-plain",
+    "name": "MongoDB"
+  },
+  {
+    "lang": "devicon-html5-plain",
+    "name": "HTML5"
+  },
+  {
+    "lang": "devicon-css3-plain",
+    "name": "CSS3"
+  },
+  {
+    "lang": "devicon-amazonwebservices-plain",
+    "name": "AWS (S3, EC2, RDS)"
+  }
+]

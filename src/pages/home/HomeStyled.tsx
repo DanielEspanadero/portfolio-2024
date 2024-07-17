@@ -4,14 +4,14 @@ export const HomeStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  flex-direction: column;
+  background-color: #121418;
   .presentation {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 120vh;
     .text-container {
       display: flex;
       justify-content: center;
@@ -20,12 +20,12 @@ export const HomeStyled = styled.div`
       color: #fff;
       font-size: 1rem;
       text-align: center;
+      margin: 2rem 0;
       .greeting:hover {
         display: inline-block;
         transform: rotate(-30deg);
         animation: wave 1s infinite linear;
         transform-origin: 70% 70%;
-        cursor: grab;
       }
       @keyframes wave {
         0%,
@@ -66,12 +66,127 @@ export const HomeStyled = styled.div`
       }
     }
   }
+  .about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    width: 95%;
+    padding: 3rem 0;
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      width: 95%;
+      font-size: 1.5rem;
+      text-align: justify;
+      line-height: 1.5;
+      .java {
+        background-color: #e76f00;
+        border-radius: 0.5rem;
+        padding: 0.1rem;
+        color: #000;
+      }
+      .spring {
+        background-color: #6db33e;
+        border-radius: 0.5rem;
+        padding: 0.1rem;
+        color: #000;
+      }
+      .mysql {
+        background-color: #017691;
+        border-radius: 0.5rem;
+        padding: 0.1rem;
+        color: #000;
+      }
+      .youtube {
+        background-color: #ff0200;
+        border-radius: 0.5rem;
+        padding: 0.1rem;
+        color: #000;
+      }
+      .youtube:hover {
+        color: #fff;
+      }
+      .book {
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        padding: 0.1rem;
+        color: #000;
+      }
+      .book:hover {
+        color: #89b9cc;
+      }
+      .java {
+        background-color: #e76f00;
+        border-radius: 0.5rem;
+        padding: 0.1rem;
+      }
+      .spring {
+        background-color: #6db33e;
+        border-radius: 0.5rem;
+        padding: 0.1rem;
+      }
+      .mysql {
+        background-color: #017691;
+        border-radius: 0.5rem;
+        padding: 0.1rem;
+      }
+    }
+  }
+
+  .skills {
+    width: 90%;
+    color: #fff;
+    margin: 4rem 0;
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
 
   @media (min-width: 750px) {
     .presentation {
+      height: 120vh;
       .text-container {
         font-size: 2rem;
       }
+    }
+    .about-me {
+      width: 80%;
+      margin-top: 5rem;
+      padding: 3rem 0;
+      h2 {
+        font-size: 3rem;
+        margin: 2rem;
+      }
+      p {
+        width: 70%;
+        font-size: 1.5rem;
+        text-align: justify;
+        line-height: 1.5;
+      }
+    }
+  }
+  .experience {
+    width: 90%;
+    color: #fff;
+    margin: 4rem 0;
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-align: center;
     }
   }
 `;
