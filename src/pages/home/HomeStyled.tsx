@@ -20,7 +20,7 @@ export const HomeStyled = styled.div`
       color: #fff;
       font-size: 1rem;
       text-align: center;
-      margin: 2rem 0;
+      margin: 6rem 0 2rem 0;
       .greeting:hover {
         display: inline-block;
         transform: rotate(-30deg);
@@ -85,7 +85,19 @@ export const HomeStyled = styled.div`
       line-height: 1.5;
     }
   }
-
+  .experience {
+    color: #fff;
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .all-exp {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
   .skills {
     width: 90%;
     color: #fff;
@@ -258,6 +270,7 @@ export const HomeStyled = styled.div`
       height: 120vh;
       .text-container {
         font-size: 2rem;
+        margin-top: 0;
       }
     }
     .about-me {
@@ -275,20 +288,17 @@ export const HomeStyled = styled.div`
         line-height: 1.5;
       }
     }
-  }
-  .experience {
-    width: 90%;
-    color: #fff;
-    margin: 4rem 0;
-    h2 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-      text-align: center;
-    }
-    .all-exp {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
+    .experience {
+      h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+      .all-exp {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
     }
     .contact {
       .form {
@@ -299,7 +309,6 @@ export const HomeStyled = styled.div`
           width: 60%;
           margin-top: 2rem;
           padding: 0.5rem 1rem;
-          border: none;
         }
         .text {
           min-height: 8rem;

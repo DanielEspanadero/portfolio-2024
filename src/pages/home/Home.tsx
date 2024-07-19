@@ -4,6 +4,7 @@ import skills from "../../jsons/skills.json";
 import experiences from "../../jsons/experiences.json";
 import { Experience } from "../../components/experience/Experience";
 import sendEmail from "../../config/sendEmail";
+import { Projects } from "../../components/projects/Projects";
 
 export const Home = () => {
   return (
@@ -74,6 +75,7 @@ export const Home = () => {
       </div>
       <div className="projects">
         <h2>Some of my projects ⚙️</h2>
+        <Projects />
       </div>
       <div className="book">
         <h2>I wrote a programming book! 📖</h2>
