@@ -290,20 +290,20 @@ export const HomeStyled = styled.div`
       align-items: center;
       flex-direction: column;
     }
-  }
-  .contact {
-    .form {
-      width: 50%;
-      margin: 2rem 0;
-      border-radius: 1rem;
-      .input {
-        width: 60%;
-        margin-top: 2rem;
-        padding: 0.5rem 1rem;
-        border: none;
-      }
-      .text {
-        min-height: 8rem;
+    .contact {
+      .form {
+        width: 50%;
+        margin: 2rem 0;
+        border-radius: 1rem;
+        .input {
+          width: 60%;
+          margin-top: 2rem;
+          padding: 0.5rem 1rem;
+          border: none;
+        }
+        .text {
+          min-height: 8rem;
+        }
       }
     }
   }

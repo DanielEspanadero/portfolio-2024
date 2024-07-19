@@ -26,12 +26,12 @@ export const ExperienceStyled = styled.div`
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
-      margin: 1rem 0 0 2rem;
+      margin: 1rem 0 0 1rem;
       h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
       }
       h3 {
-        font-size: 1rem;
+        font-size: .8rem;
       }
     }
   }
