@@ -4,7 +4,7 @@ import skills from "../../jsons/skills.json";
 import experiences from "../../jsons/experiences.json";
 import { Experience } from "../../components/experience/Experience";
 import sendEmail from "../../config/sendEmail";
-import { Projects } from "../../components/projects/Projects";
+import projects from "../../jsons/projects.json";
 
 export const Home = () => {
   return (
@@ -75,7 +75,24 @@ export const Home = () => {
       </div>
       <div className="projects">
         <h2>Some of my projects ⚙️</h2>
-        <Projects />
+        <p>
+          The vast majority of the backend projects that I have carried out are
+          private repositories for security reasons, that is why I will share
+          links to some videos where I explain concepts widely used in the
+          industry and that demonstrate my knowledge on the subject.
+        </p>
+        <div className="all-projects">
+          {projects.map((project: any) => (
+            <a
+              className="img-link"
+              href={project.href}
+              target="_BLANK"
+              rel="noopener noreferrer"
+            >
+              <img className="img" src={project.path} alt="" />
+            </a>
+          ))}
+        </div>
       </div>
       <div className="book">
         <h2>I wrote a programming book! 📖</h2>

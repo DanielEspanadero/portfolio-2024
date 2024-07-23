@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/public/images/hexagonal-architecture.png",
+    "href": "https://www.youtube.com/watch?v=JD_ZL3Bnaog"
+  },
+  {
+    "path": "/public/images/aws ec2 rds.png",
+    "href": "https://www.youtube.com/watch?v=gEWqXYlC4ak"
+  },
+  {
+    "path": "/public/images/aws s3.png",
+    "href": "https://www.youtube.com/watch?v=b186cnroYyc"
+  },
+  {
+    "path": "/public/images/concurrence.png",
+    "href": "https://www.youtube.com/watch?v=cskoNJCWMws"
+  },
+  {
+    "path": "/public/images/la concha del raval.png",
+    "href": "https://laconchadelraval.daniel-espanadero.com/"
+  },
+  {
+    "path": "/public/images/eurodarwin.png",
+    "href": "https://eurodarwin.daniel-espanadero.com/"
+  }
+]

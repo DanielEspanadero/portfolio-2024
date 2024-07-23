@@ -265,6 +265,42 @@ export const HomeStyled = styled.div`
     }
   }
 
+  .projects {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      width: 80%;
+      font-size: 1.5rem;
+      text-align: justify;
+      line-height: 1.5;
+      margin: 1rem 0;
+    }
+    .all-projects {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      .img-link {
+        width: 90%;
+        margin: 1rem;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        .img {
+          width: 100%;
+          transition: transform 0.3s ease;
+        }
+        .img:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+
   @media (min-width: 750px) {
     .presentation {
       height: 120vh;
@@ -312,6 +348,22 @@ export const HomeStyled = styled.div`
         }
         .text {
           min-height: 8rem;
+        }
+      }
+    }
+    .projects {
+      p {
+        width: 95%;
+        font-size: 1.5rem;
+      }
+      .all-projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+        .img-link {
+          width: 30%;
+          margin: 1rem;
+          border-radius: 0.5rem;
+          overflow: hidden;
         }
       }
     }

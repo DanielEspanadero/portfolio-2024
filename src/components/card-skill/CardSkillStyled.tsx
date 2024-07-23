@@ -10,7 +10,7 @@ export const CardSkillStyled = styled.div`
     height: 200px;
     background-color: #fff3;
     border-radius: 1rem;
-    margin: 2rem;
+    margin: .3rem;
     i {
       font-size: 4rem;
     }
@@ -27,5 +27,11 @@ export const CardSkillStyled = styled.div`
   .card:active {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
       rgba(56, 55, 55, 0.3) 0px 18px 36px -18px inset;
+  }
+
+   @media (min-width: 750px) {
+  .card {
+    margin: 2rem;
+   }
   }
 `;
