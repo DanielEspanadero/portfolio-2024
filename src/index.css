@@ -10,3 +10,7 @@
     font-family: 'roboto-regular';
     user-select: none;
 }
+
+body {
+    background-color: #131519;
+}
