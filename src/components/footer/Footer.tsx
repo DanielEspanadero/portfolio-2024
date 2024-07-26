@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { FooterStyled } from "./FooterStyled"
 
 export const Footer = () => {
+    const { t } = useTranslation();
+
   return (
     <FooterStyled>
       <footer>
@@ -110,11 +113,11 @@ export const Footer = () => {
         </div>
         <div className="author">
           <p>
-            Developer by{" "}
+            {t("developer-by")}{" "}
             <a className="link" href="https://daniel-espanadero.com/">
               Daniel Españadero
             </a>{" "}
-            with <i className="devicon-react-original"></i> React - ©{" "}
+            {t("width")} <i className="devicon-react-original"></i> React - ©{" "}
             {new Date().getFullYear()}
           </p>
         </div>

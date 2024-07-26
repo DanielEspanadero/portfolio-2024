@@ -3,6 +3,7 @@
   "i-am": "I'm",
   "backend-developer": "backend developer",
   "about-me": "About Me",
+  "hey": "Hey",
   "description": "I am a software developer with over three years of experience, specializing in backend development. I have worked on significant projects using technologies such as Java, Spring Boot, and MySQL, and I have experience implementing microservices, hexagonal architecture, and domain-driven design (DDD). Additionally, I am proficient with modern tools and technologies like Apache Kafka, Docker, and AWS, which enable me to build efficient and scalable applications. I am passionate about staying up-to-date with the latest trends in backend development and continuously enhancing my skills to deliver innovative and high-quality solutions.",
   "technical-skills": "Technical Skills",
   "professional-experience": "Professional Experience",
@@ -30,5 +31,17 @@
   "your-name": "Your name",
   "your-email": "Your email",
   "Message": "Message",
-  "send": "SEND"
+  "send": "SEND",
+  "english": "English",
+  "spanish": "Spanish",
+  "portfolio": "Portfolio",
+  "courses": "Courses",
+  "book": "Book",
+  "developer-by": "Developer by",
+  "width": "width",
+  "mytic-position": "Software Developer | September 2022 - Present",
+  "mytic-description": "Integral part of the development team at Volkswagen Group Services, with responsibilities in various key areas. Development using Java and Spring Boot technologies. Creation of RESTful services with microservices architecture and MySQL database. Design of interactive user interfaces using Angular to enhance user experience. Maintenance and continuous improvement of microservices, applying best practices such as testing with JUnit and Mockito.",
+  "malt-position": "Software Developer (Freelance) | September 2021 - September 2022",
+  "malt-description": "Working on various full-stack projects using MongoDB, Express, React, and NodeJS.",
+  "technologies": "Technologies"
 }

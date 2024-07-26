@@ -2,15 +2,15 @@
   {
     "logo": "/public/images/mytic-logo.png",
     "name": "Mytic Innova",
-    "position": "Software Developer | September 2022 - Present",
-    "description": "Integral part of the development team at Volkswagen Group Services, with responsibilities in various key areas. Development using Java and Spring Boot technologies. Creation of RESTful services with microservices architecture and MySQL database. Design of interactive user interfaces using Angular to enhance user experience. Maintenance and continuous improvement of microservices, applying best practices such as testing with JUnit and Mockito.",
+    "position": "mytic-position",
+    "description": "mytic-description",
     "technologies": ["devicon-java-plain", "devicon-spring-plain", "devicon-mysql-plain", "devicon-amazonwebservices-plain", "devicon-docker-plain", "devicon-angularjs-plain"]
   },
   {
     "logo": "/public/images/malt.png",
     "name": "Malt",
-    "position": "Software Developer (Freelance) | September 2021 - September 2022",
-    "description": "Working on various full-stack projects using MongoDB, Express, React, and NodeJS.",
+    "position": "malt-position",
+    "description": "malt-description",
     "technologies": ["devicon-mongodb-plain", "devicon-express-original", "devicon-react-original", "devicon-nodejs-plain-wordmark"]
   }
 ]

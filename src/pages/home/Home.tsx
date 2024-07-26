@@ -15,8 +15,9 @@ export const Home = () => {
       <div className="presentation">
         <div className="text-container">
           <h1>
-            Hey <span className="greeting">👋</span> {t("i-am")} Daniel Españadero,{" "}
-            <br /> {t("a")} <span className="developer">backend developer</span>
+            {t("hey")} <span className="greeting">👋</span> {t("i-am")} Daniel
+            Españadero, <br /> {t("a")}{" "}
+            <span className="developer">backend developer</span>
           </h1>
         </div>
         <div className="img-container">
@@ -56,8 +57,8 @@ export const Home = () => {
                   key={experience.name}
                   logo={experience.logo}
                   name={experience.name}
-                  position={experience.position}
-                  description={experience.description}
+                  position={t(experience.position)}
+                  description={t(experience.description)}
                   technologies={experience.technologies}
                 />
               );

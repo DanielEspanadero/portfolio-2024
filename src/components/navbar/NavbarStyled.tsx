@@ -11,32 +11,38 @@ export const NavbarStyled = styled.div`
     width: 50%;
     height: 100%;
   }
+  .left-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
   .right-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    .btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 3rem;
-      width: 3rem;
-      border-radius: 0.5rem;
-      border: 1px solid #fff4;
-      background-color: #000;
-      margin-right: 2rem;
-      cursor: pointer;
-      img {
-        width: 50%;
-      }
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #fff4;
+    background-color: #000;
+    margin: 0 2rem;
+    cursor: pointer;
+    img {
+      width: 50%;
     }
-    .btn:hover {
-      background-color: #444;
-    }
-    .btn:active {
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    }
+  }
+  .btn:hover {
+    background-color: #444;
+  }
+  .btn:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   }
 
   .input {
@@ -98,5 +104,17 @@ export const NavbarStyled = styled.div`
 
   .value svg {
     width: 15px;
+  }
+
+  .input-language {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    margin: 4rem 0 0 2rem;
+    width: 200px;
+    background-color: #000000;
+    justify-content: center;
+    border-radius: 5px;
   }
 `;

@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { ExperienceStyled } from "./ExperienceStyled";
 
 interface ExperienceProps {
@@ -9,6 +10,8 @@ interface ExperienceProps {
 }
 
 export const Experience: React.FC<ExperienceProps> = ({logo, name, position, description, technologies}) => {
+    const { t } = useTranslation();
+
   return (
     <ExperienceStyled>
       <div className="header">
@@ -24,7 +27,7 @@ export const Experience: React.FC<ExperienceProps> = ({logo, name, position, des
         <p>{description}</p>
       </div>
       <div className="technologies">
-        <p>Technologies:</p>
+        <p>{t("technologies")}:</p>
         {technologies.map((technology: string) => {
           return (
             <i className={`technology ${technology}`} key={technology}></i>

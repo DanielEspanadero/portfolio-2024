@@ -3,6 +3,7 @@
   "i-am": "Soy",
   "about-me": "Sobre mí",
   "backend-developer": "desarrollador backend",
+  "hey": "Hola",
   "description": "Soy un desarrollador de software con más de tres años de experiencia, especializado en desarrollo backend. He trabajado en proyectos importantes utilizando tecnologías como Java, Spring Boot y MySQL, y tengo experiencia implementando microservicios, arquitectura hexagonal y diseño orientado por dominio (DDD). Además, tengo conocimientos en herramientas y tecnologías modernas como Apache Kafka, Docker y AWS, que me permiten construir aplicaciones eficientes y escalables. Me apasiona mantenerme al día con las últimas tendencias en desarrollo backend y mejorar continuamente mis habilidades para ofrecer soluciones innovadoras y de alta calidad.",
   "technical-skills": "Habilidades Técnicas",
   "professional-experience": "Experiencia Profesional",
@@ -27,5 +28,17 @@
   "your-name": "Tu nombre",
   "your-email": "Tu correo electrónico",
   "Message": "Mensaje",
-  "send": "ENVIAR"
+  "send": "ENVIAR",
+  "english": "Inglés",
+  "spanish": "Español",
+  "portfolio": "Portafolio",
+  "courses": "Cursos",
+  "book": "Libro",
+  "developer-by": "Desarrollado por",
+  "width": "con",
+  "mytic-position": "Desarrollador de Software | septiembre 2022 - Actualidad",
+  "mytic-description": "Parte integral del equipo de desarrollo en Volkswagen Group Services, con responsabilidades en diversas áreas clave. Desarrollo utilizando tecnologías Java y Spring Boot. Creación de servicios RESTful con arquitectura de microservicios y base de datos MySQL. Diseño de interfaces de usuario interactivas usando Angular para mejorar la experiencia del usuario. Mantenimiento y mejora continua de microservicios, aplicando mejores prácticas como pruebas con JUnit y Mockito.",
+  "malt-position": "Desarrollador de Software (Freelance) | septiembre 2021 - September 2022",
+  "malt-description": "Trabajando en varios proyectos full-stack utilizando MongoDB, Express, React y NodeJS.",
+  "technologies": "Tecnologías"
 }
