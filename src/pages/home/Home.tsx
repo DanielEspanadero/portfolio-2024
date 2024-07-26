@@ -96,9 +96,67 @@ export const Home = () => {
       </div>
       <div className="book">
         <h2>I wrote a programming book! 📖</h2>
+        <div className="book-img-text">
+          <a
+            href="https://www.amazon.es/GU%C3%8DA-PARA-APRENDER-PROGRAMAR-Primer/dp/B0CRPPD8CJ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="img-book"
+              src="/public/images/guia para aprender a programar.png"
+              alt="guía para aprender a programar"
+            />
+          </a>
+
+          <div className="book-text-container">
+            <h3>
+              GUÍA PARA APRENDER A PROGRAMAR: Desde Cero Hasta tu Primer Empleo
+            </h3>
+            <p>
+              ✨ ARE YOU READY TO BECOME A PROGRAMMER AND LAND YOUR FIRST JOB?
+              ✨ <br />
+              <br />
+              The challenges of learning to program can seem overwhelming, from
+              understanding fundamental concepts to creating functional
+              applications and gaining recognition in the tech world to achieve
+              your big goal: GETTING YOUR FIRST JOB AS A PROGRAMMER.
+              <br />
+              <br /> ☹ But don't worry, you're one step away from the solution.
+              ✔️ ✏ This is the ultimate guide that will teach you to: <br />
+              ▶️ Choose the best path in programming to find a job. <br />
+              ▶️ Learn about different types of programming languages. <br />
+              ▶️ Understand how a programmer's mind works. <br />
+              ▶️ Create projects and themes that stand out. <br />
+              ▶️ Develop your personal brand. <br />
+              ▶️ Optimize LinkedIn, GitHub, and your portfolio to highlight your
+              profile. ▶️ Capture recruiters' attention. <br />
+              ▶️ Prepare for job interviews. <br />
+              ▶️ Take your first steps in your first job. Why trust this book?
+              <br />
+              <br />
+              ✌️ DANIEL ESPAÑADERO is a self-taught software engineer who has
+              guided thousands of people to achieve their goals through his
+              YouTube channel focused on programming. He has poured all his
+              experience and knowledge from years of teaching and mentoring into
+              this book, aiming to help everyone who reads and applies it to get
+              a job as a programmer. <br />
+            </p>
+          </div>
+        </div>
       </div>
       <div className="youtube">
         <h2>My YouTube channel 📺</h2>
+        <p className="yt-text">
+          In my free time, I like to share content and teach programming-related
+          content. I currently have a community of more than 10,000 people
+          passionate about the world of software engineering.
+        </p>
+        <img
+          className="yt-img"
+          src="/public/images/yt.png"
+          alt="YouTube @danielespanadero"
+        />
       </div>
       <div className="contact">
         <h2>Contact with me 📧</h2>

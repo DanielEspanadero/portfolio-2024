@@ -284,7 +284,7 @@ export const HomeStyled = styled.div`
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
-      width: 100%;
+      width: 90%;
       .img-link {
         width: 90%;
         margin: 1rem;
@@ -298,6 +298,64 @@ export const HomeStyled = styled.div`
           transform: scale(1.05);
         }
       }
+    }
+  }
+
+  .book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    .book-img-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 80%;
+      margin: 2rem 0;
+      a {
+        width: 90%;
+        .img-book {
+          width: 100%;
+        }
+      }
+      .book-text-container {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      h3 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 2rem 0.5rem;
+      }
+      p {
+        width: 100%;
+        font-size: 1.2rem;
+        margin: 1rem 0.5rem;
+      }
+    }
+  }
+
+  .youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    .yt-img {
+      width: 80%;
+      box-shadow: rgba(87, 87, 87, 0.4) 0px 30px 90px;
+      border-radius: 1rem;
+      margin: 1rem 0;
+    }
+    .yt-text{
+      display: inline-block;
+      font-size: 1.2rem;
+      margin: 3rem 20%;
     }
   }
 
@@ -353,7 +411,7 @@ export const HomeStyled = styled.div`
     }
     .projects {
       p {
-        width: 95%;
+        width: 80%;
         font-size: 1.5rem;
       }
       .all-projects {
@@ -364,6 +422,42 @@ export const HomeStyled = styled.div`
           margin: 1rem;
           border-radius: 0.5rem;
           overflow: hidden;
+        }
+      }
+    }
+    .book {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      .book-img-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 2rem 0;
+        a {
+          width: 40%;
+          .img-book {
+            width: 100%;
+          }
+        }
+        .book-text-container {
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+        h3 {
+          font-size: 2rem;
+          text-align: center;
+          margin: 2rem;
+        }
+        p {
+          width: 80%;
+          margin: 1rem 2rem;
         }
       }
     }
