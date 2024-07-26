@@ -13,14 +13,19 @@
   "dependencies": {
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
+    "i18next": "^23.12.2",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-http-backend": "^2.5.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-i18next": "^15.0.0",
     "react-router-dom": "^6.24.1",
     "styled-components": "^6.1.11",
     "use-sound": "^4.0.3",
     "vanta": "^0.5.24"
   },
   "devDependencies": {
+    "@types/i18next": "^13.0.0",
     "@types/node": "^20.14.11",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",

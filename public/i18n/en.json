@@ -1,0 +1,34 @@
+{
+  "a": "a",
+  "i-am": "I'm",
+  "backend-developer": "backend developer",
+  "about-me": "About Me",
+  "description": "I am a software developer with over three years of experience, specializing in backend development. I have worked on significant projects using technologies such as Java, Spring Boot, and MySQL, and I have experience implementing microservices, hexagonal architecture, and domain-driven design (DDD). Additionally, I am proficient with modern tools and technologies like Apache Kafka, Docker, and AWS, which enable me to build efficient and scalable applications. I am passionate about staying up-to-date with the latest trends in backend development and continuously enhancing my skills to deliver innovative and high-quality solutions.",
+  "technical-skills": "Technical Skills",
+  "professional-experience": "Professional Experience",
+  "projects": "Some of my projects",
+  "projects-text": "The vast majority of the backend projects that I have carried out are private repositories for security reasons, that is why I will share links to some videos where I explain concepts widely used in the industry and that demonstrate my knowledge on the subject.",
+  "wrote-book": "I wrote a programming book!",
+  "book-text1": "ARE YOU READY TO BECOME A PROGRAMMER AND LAND YOUR FIRST JOB?",
+  "book-text2": "The challenges of learning to program can seem overwhelming, from understanding fundamental concepts to creating functional applications and gaining recognition in the tech world to achieve your big goal: GETTING YOUR FIRST JOB AS A PROGRAMMER.",
+  "book-text3": "☹ But don't worry, you're one step away from the solution. ✔️ ✏ This is the ultimate guide that will teach you to:",
+  "book-text4": "▶️ Choose the best path in programming to find a job.",
+  "book-text5": "▶️ Learn about different types of programming languages.",
+  "book-text6": "▶️ Understand how a programmer's mind works.",
+  "book-text7": "▶️ Create projects and themes that stand out.",
+
+  "book-text8": "▶️ Develop your personal brand.",
+
+  "book-text9": "▶️ Optimize LinkedIn, GitHub, and your portfolio to highlight your profile. ▶️ Capture recruiters' attention.",
+
+  "book-text10": "▶️ Prepare for job interviews.",
+  "book-text11": "▶️ Take your first steps in your first job. Why trust this book?",
+  "book-text12": "✌️ DANIEL ESPAÑADERO is a self-taught software engineer who has guided thousands of people to achieve their goals through his YouTube channel focused on programming. He has poured all his experience and knowledge from years of teaching and mentoring into this book, aiming to help everyone who reads and applies it to get a job as a programmer.",
+  "my-youtube-channel": "My YouTube channel",
+  "yt-text": "In my free time, I like to share content and teach programming-related content. I currently have a community of more than 10,000 people passionate about the world of software engineering.",
+  "contact": "Contact with me",
+  "your-name": "Your name",
+  "your-email": "Your email",
+  "Message": "Message",
+  "send": "SEND"
+}

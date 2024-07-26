@@ -4,6 +4,7 @@ import useSound from "use-sound";
 import clickSound from "/sounds/public_sounds_click.mp3";
 import './App.css'
 import { MainRoutes } from "./routes/MainRoutes";
+import "./i18n"; 
 
 function App() {
   const [play] = useSound(clickSound, { volume: 0.05 });
