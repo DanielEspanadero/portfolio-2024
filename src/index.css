@@ -9,6 +9,7 @@
     box-sizing: border-box;
     font-family: 'roboto-regular';
     user-select: none;
+  text-decoration: none;
 }
 
 body {

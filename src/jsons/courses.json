@@ -1,0 +1,149 @@
+[
+  {
+    "img": "/public/images/makefile.webp",
+    "title": "Aprende a crear archivos Makefile",
+    "time": "00:37h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=BD0giwqBbm0"
+  },
+  {
+    "img": "/public/images/notaciones-asintoticas.jpg",
+    "title": "Notaciones Asintóticas",
+    "time": "00:11h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=9c0B6Zh0PYE"
+  },
+  {
+    "img": "/public/images/struct-c.webp",
+    "title": "Estructuras en C [Struct]",
+    "time": "00:16h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=plTYF-btLuU"
+  },
+  {
+    "img": "/public/images/punteros-c.webp",
+    "title": "Punteros en C: Explicación completa",
+    "time": "00:25h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=y3K3jb3wv2I"
+  },
+  {
+    "img": "/public/images/emails.jpg",
+    "title": "Envía Emails con Java [Java Mail]",
+    "time": "00:51h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=3GqjpcxQnUI"
+  },
+  {
+    "img": "/public/images/spring-security.webp",
+    "title": "Spring Security",
+    "time": "02:07h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=Qu3soRF168I"
+  },
+  {
+    "img": "/public/images/concurrencia.jpg",
+    "title": "Concurrencia en Java",
+    "time": "00:49h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=cskoNJCWMws"
+  },
+  {
+    "img": "/public/images/ec2-rds.webp",
+    "title": "AWS EC2 & RDS: Despliega app con Spring Boot y MySQL",
+    "time": "01:27h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=gEWqXYlC4ak"
+  },
+  {
+    "img": "/public/images/git.jpg",
+    "title": "Curso Completo de GIT",
+    "time": "03:19h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=Hce80VUi3Uo"
+  },
+  {
+    "img": "/public/images/POO.jpg",
+    "title": "Programación Orientada a Objetos (POO)",
+    "time": "00:37h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=mK5Xwj0inZA"
+  },
+  {
+    "img": "/public/images/Principios-SOLID.jpg",
+    "title": "Principios SOLID Explicados",
+    "time": "00:26h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=KtxNclOV4jk"
+  },
+  {
+    "img": "/public/images/arquitectura-hexagonal.jpg",
+    "title": "Arquitectura Hexagonal [Con Java y Spring Boot]",
+    "time": "02:28h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=JD_ZL3Bnaog"
+  },
+  {
+    "img": "/public/images/aws-s3.jpg",
+    "title": "AWS S3: CRUD con Java y Spring Boot",
+    "time": "01:52h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=b186cnroYyc"
+  },
+  {
+    "img": "/public/images/subida-archivos.jpg",
+    "title": "Sube archivos a un servidor con Java y Spring Boot",
+    "time": "00:33h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=h5YW-_xgmlo"
+  },
+  {
+    "img": "/public/images/crud-java-spring.jpg",
+    "title": "CRUD completo con Java y SpringBoot",
+    "time": "00:49h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=M7lhQMzzHWU"
+  },
+  {
+    "img": "/public/images/mysql.jpg",
+    "title": "Curso completo de MySQL",
+    "time": "05:01h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=Fh0eAzfvPTI"
+  },
+  {
+    "img": "/public/images/subida-archivos-node-ts.jpg",
+    "title": "Sube archivos a un servidor con NodeJS y TypeScript",
+    "time": "00:56h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=pmKzBy4tYeg"
+  },
+  {
+    "img": "/public/images/dice-game.jpg",
+    "title": "NodeJS, Express, TypeScript",
+    "time": "04:35h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=OGRgX1IZld0"
+  },
+  {
+    "img": "/public/images/js.jpg",
+    "title": "Curso completo de JavaScript",
+    "time": "10:00h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=f7XjjKhLCsA"
+  },
+  {
+    "img": "/public/images/css.jpg",
+    "title": "Curso completo de CSS3",
+    "time": "10:24h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=DilhVo1xj64"
+  },
+  {
+    "img": "/public/images/html5.jpg",
+    "title": "Curso completo de HTML5",
+    "time": "01:55h",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=gAcVf86WxPA"
+  }
+]
