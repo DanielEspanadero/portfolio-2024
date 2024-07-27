@@ -13,6 +13,7 @@ export const CoursesStyled = styled.div`
     margin-left: 10%;
     margin-top: 2rem;
     font-size: 1.2rem;
+    text-align: justify;
   }
   .courses-container {
     display: flex;

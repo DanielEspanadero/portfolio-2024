@@ -43,5 +43,10 @@
   "mytic-description": "Integral part of the development team at Volkswagen Group Services, with responsibilities in various key areas. Development using Java and Spring Boot technologies. Creation of RESTful services with microservices architecture and MySQL database. Design of interactive user interfaces using Angular to enhance user experience. Maintenance and continuous improvement of microservices, applying best practices such as testing with JUnit and Mockito.",
   "malt-position": "Software Developer (Freelance) | September 2021 - September 2022",
   "malt-description": "Working on various full-stack projects using MongoDB, Express, React, and NodeJS.",
-  "technologies": "Technologies"
+  "technologies": "Technologies",
+  "why-buy": "Why should you buy this book?",
+  "book-page-text": "Getting started in the world of programming can be challenging, but doing it with a guide written by someone who has but to do so with a guide written by someone who has managed to find his first self-taught as Daniel Españadero, makes all the difference. difference. This book not only offers a clear and effective way to learn how to program, but also makes a difference. to learn how to program, but it also provides practical strategies to stand out in the strategies to stand out in the competitive tech job market. market. From choosing the right programming language to creating an impactful portfolio and preparing for job interviews, this guide is designed to help you overcome the initial hurdles and reach your goal of and reach your goal of landing your first job as a programmer, backed by real-world experience and programmer, backed by real-world experience and advice from an expert who has walked the same expert who has successfully walked the same path.",
+  "buy-now": "Buy Now",
+  "rate": "Remember to rate it on Amazon ⭐️⭐️⭐️⭐️⭐️ so that this book can reach more people.",
+  "courses-page-text": "Here you can find a selection of my free courses that I have developed throughout my professional career. In them, I not only demonstrate my technical knowledge in a practical way, but they have also accumulated more than 800,000 views in total, thus validating the usefulness of said knowledge by users. Currently I only have courses in Spanish, although I would like to upload material in English in the future."
 }

@@ -1,16 +1,15 @@
 import { CoursesStyled } from './CoursesStyled';
 import courses from '../../jsons/courses.json';
+import { useTranslation } from 'react-i18next';
 
 export const Courses = () => {
+      const { t } = useTranslation();
+
   return (
     <CoursesStyled>
-      <h1>CURSOS</h1>
+      <h1>{t("courses").toUpperCase()}</h1>
       <p className='courses-text'>
-        Aquí puedes encontrar una selección de mis cursos gratuitos que he
-        desarrollado a lo largo de mi carrera profesional. En ellos, no solo
-        demuestro mis conocimientos técnicos de manera práctica, sino que
-        también han acumulado más de 800,000 visualizaciones en total, validando
-        así la utilidad de dichos conocimientos por parte de los usuarios. En la actualidad sólo dispongo de cursos en español, aunque me gustaría subir material en inglés en un futuro.
+        {t("courses-page-text")}
       </p>
       <div className="courses-container">
         {courses.map((course: any) => (

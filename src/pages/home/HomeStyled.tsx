@@ -356,6 +356,7 @@ export const HomeStyled = styled.div`
       display: inline-block;
       font-size: 1.2rem;
       margin: 3rem 20%;
+      text-align: justify;
     }
   }
 

@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { BookStyled } from "./BookStyled";
 
 export const Book = () => {
+    const { t } = useTranslation();
+
   return (
     <BookStyled>
       <h1 className="title">
@@ -13,20 +16,9 @@ export const Book = () => {
           alt="guía para aprender a programar"
         />
         <div className="text-container">
-          <p className="why-buy">¿Por qué deberías comprar este libro?</p>
+          <p className="why-buy">{t("why-buy")}</p>
           <p className="text-book">
-            Comenzar en el mundo de la programación puede ser desafiante, pero
-            hacerlo con una guía escrita por alguien que ha logrado encontrar su
-            primer empleo de forma autodidacta cómo Daniel Españadero, marca la
-            diferencia. Este libro no solo ofrece un camino claro y efectivo
-            para aprender a programar, sino que también brinda estrategias
-            prácticas para destacar en el competitivo mercado laboral
-            tecnológico. Desde elegir el lenguaje de programación adecuado hasta
-            crear un portafolio impactante y preparar entrevistas laborales,
-            esta guía está diseñada para ayudarte a superar los obstáculos
-            iniciales y alcanzar tu meta de conseguir tu primer empleo como
-            programador, respaldado por la experiencia real y los consejos de un
-            experto que ha recorrido ese mismo camino con éxito.
+            {t("book-page-text")}
           </p>
         </div>
       </div>
@@ -37,14 +29,13 @@ export const Book = () => {
           target="_BLANK"
         >
           <span className="top-key"></span>
-          <span className="text">Buy Now</span>
+          <span className="text">{t("buy-now")}</span>
           <span className="bottom-key-1"></span>
           <span className="bottom-key-2"></span>
         </a>
       </div>
       <p className="score">
-        Recuerda puntuarlo en Amazon ⭐️⭐️⭐️⭐️⭐️ para que este libro pueda
-        llegar a más personas.
+        {t("rate")}
       </p>
     </BookStyled>
   );

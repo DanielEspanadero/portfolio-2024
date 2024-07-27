@@ -114,6 +114,8 @@ export const FooterStyled = styled.div`
     align-items: center;
     text-align: center;
     p {
+      margin: 0 1rem;
+
       .link {
         color: #fff;
       }
