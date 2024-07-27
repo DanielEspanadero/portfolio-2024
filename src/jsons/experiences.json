@@ -1,13 +1,13 @@
 [
   {
-    "logo": "/public/images/mytic-logo.png",
+    "logo": "../../../public/images/mytic-logo.png",
     "name": "Mytic Innova",
     "position": "mytic-position",
     "description": "mytic-description",
     "technologies": ["devicon-java-plain", "devicon-spring-plain", "devicon-mysql-plain", "devicon-amazonwebservices-plain", "devicon-docker-plain", "devicon-angularjs-plain"]
   },
   {
-    "logo": "/public/images/malt.png",
+    "logo": "../../../public/images/malt.png",
     "name": "Malt",
     "position": "malt-position",
     "description": "malt-description",
