@@ -12,7 +12,7 @@ export const Book = () => {
       <div className="img-text-container">
         <img
           className="with-book"
-          src="../../../public/images/guia para aprender a programar.jpg"
+          src="../../../images/guia para aprender a programar.jpg"
           alt="guía para aprender a programar"
         />
         <div className="text-container">

@@ -61,7 +61,7 @@ export const Navbar = () => {
     <NavbarStyled>
       <div className="container left-container">
         <button className="btn" onClick={toggleLanguageDropdownVisibility}>
-          <img src="../../../public/images/lang-icon.png" alt="settings" />
+          <img src="../../../images/lang-icon.png" alt="settings" />
         </button>
       </div>
       {isLanguageDropdownVisible && (
@@ -77,7 +77,7 @@ export const Navbar = () => {
 
       <div className="container right-container">
         <button className="btn" onClick={toggleInputVisibility}>
-          <img src="../../../public/images/oimenu.svg" alt="settings" />
+          <img src="../../../images/menu-icon.png" alt="settings" />
         </button>
       </div>
       {isInputVisible && (

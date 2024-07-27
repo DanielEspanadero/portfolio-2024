@@ -23,7 +23,7 @@ export const Home = () => {
         <div className="img-container">
           <img
             className="dif"
-            src="../../..../../../public/images/dif-no-bg.png"
+            src="../../..../../../images/dif-no-bg.png"
             alt="Daniel Españadero"
           />
         </div>
@@ -92,7 +92,7 @@ export const Home = () => {
           >
             <img
               className="img-book"
-              src="../../../public/images/guia para aprender a programar.png"
+              src="../../../images/guia para aprender a programar.png"
               alt="guía para aprender a programar"
             />
           </a>
@@ -130,7 +130,7 @@ export const Home = () => {
         <p className="yt-text">{t("yt-text")}</p>
         <img
           className="yt-img"
-          src="../../../public/images/yt.png"
+          src="../../../images/yt.png"
           alt="YouTube @danielespanadero"
         />
       </div>
