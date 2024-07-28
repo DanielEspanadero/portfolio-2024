@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const BookStyled = styled.div`
   min-height: 100vh;
   color: #fff;
+  overflow: hidden;
   /* margin-top: 6rem; */
   .title {
     padding-top: 8rem;
