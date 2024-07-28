@@ -352,10 +352,10 @@ export const HomeStyled = styled.div`
       border-radius: 1rem;
       margin: 1rem 0;
     }
-    .yt-text{
+    .yt-text {
       display: inline-block;
       font-size: 1.2rem;
-      margin: 3rem 20%;
+      margin: 3rem 10%;
       text-align: justify;
     }
   }
@@ -461,6 +461,11 @@ export const HomeStyled = styled.div`
           width: 80%;
           margin: 1rem 2rem;
         }
+      }
+    }
+    .youtube {
+      .yt-text {
+        margin: 3rem 20%;
       }
     }
   }

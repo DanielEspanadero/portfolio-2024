@@ -123,6 +123,7 @@ export const FooterStyled = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 1rem 0;
     p {
       margin: 0 1rem;
 
