@@ -7,6 +7,7 @@ export const Footer = () => {
   return (
     <FooterStyled>
       <footer>
+        <p className="contact-message">📨 {t("contact-message")}:</p>
         <div className="social-container">
           <ul className="example-2">
             <li className="icon-content">

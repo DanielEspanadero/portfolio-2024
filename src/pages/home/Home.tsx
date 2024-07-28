@@ -3,7 +3,7 @@ import { HomeStyled } from "./HomeStyled";
 import skills from "../../jsons/skills.json";
 import experiences from "../../jsons/experiences.json";
 import { Experience } from "../../components/experience/Experience";
-import sendEmail from "../../config/sendEmail";
+// import sendEmail from "../../config/sendEmail";
 import projects from "../../jsons/projects.json";
 import { useTranslation } from "react-i18next";
 
@@ -134,7 +134,7 @@ export const Home = () => {
           alt="YouTube @danielespanadero"
         />
       </div>
-      <div className="contact">
+      {/* <div className="contact">
         <h2>{t("contact")} 📧</h2>
         <form className="form" onSubmit={sendEmail}>
           <input
@@ -168,7 +168,7 @@ export const Home = () => {
             {t("send")}
           </button>
         </form>
-      </div>
+      </div> */}
     </HomeStyled>
   );
 };

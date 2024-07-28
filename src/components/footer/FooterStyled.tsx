@@ -1,7 +1,17 @@
 import styled from "styled-components";
 
 export const FooterStyled = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #121418;
+  color: #fff;
+  .contact-message{
+    display: inline-block;
+    margin: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+  } 
   .social-container {
     display: flex;
     align-items: center;
