@@ -12,6 +12,7 @@ export const HomeStyled = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
+    min-height: 100vh;
     .text-container {
       display: flex;
       justify-content: center;
@@ -20,7 +21,7 @@ export const HomeStyled = styled.div`
       color: #fff;
       font-size: 1rem;
       text-align: center;
-      margin: 6rem 0 2rem 0;
+      margin: 6rem 0.1rem 2rem 0.1rem;
       .greeting:hover {
         display: inline-block;
         transform: rotate(-30deg);
@@ -359,7 +360,13 @@ export const HomeStyled = styled.div`
       text-align: justify;
     }
   }
-
+  @media (min-width:650px) {
+    .presentation {
+      .text-container {
+        font-size: 1.2rem;
+      }
+    }
+  }
   @media (min-width: 750px) {
     .presentation {
       min-height: 120vh;
