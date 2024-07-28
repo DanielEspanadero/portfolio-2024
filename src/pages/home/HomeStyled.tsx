@@ -362,7 +362,8 @@ export const HomeStyled = styled.div`
 
   @media (min-width: 750px) {
     .presentation {
-      height: 120vh;
+      min-height: 120vh;
+      margin-top: 4rem;
       .text-container {
         font-size: 2rem;
         margin-top: 0;
