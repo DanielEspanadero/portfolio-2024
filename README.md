@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# 👨‍💻 PORTAFOLIO DANIEL ESPAÑADERO 2024 👨‍💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/DanielEspanadero/portfolio-2024/blob/master/docs/cover.png)
 
-Currently, two official plugins are available:
+## Special mention 🙏🏻
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+_Me gustaría agradecer a todas aquellas personas que me han ayudado a crecer a lo largo de mi carrera profesional, gracias a cada consejo, guía o ayuda hoy me he convertido en un gran profesional dentro del mundo de la ingeniería de software._
 
-## Expanding the ESLint configuration
+## Descripción del proyecto 🚀
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+_Este proyecto es el portafolio de Daniel Españadero, un ingeniero de software apasionado de la tecnología y de seguir mejorando día a día en el mundo de la programación, ha sido creado en el año 2024 con la intención de mostrar las habilidades y proyectos mas destacados._
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologías utilizadas 🚀
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+_Para crear este proyecto he utilizado [React](https://react.dev/) con [TypeScript](https://www.typescriptlang.org/) y ha sido empaquetado con [Vite](https://vitejs.dev/)._
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Author ✒️
+
+* **Daniel Españadero** - *Complete work* - [DanielEspanadero](https://github.com/DanielEspanadero)
+
+## License 📄
+
+_This project is made under an [MIT license](https://github.com/DanielEspanadero/portfolio-2024/blob/master/LICENSE)_
